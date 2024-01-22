@@ -14,6 +14,5 @@ export class AppComponent {
 
   onInput(value: string) {
     this.enteredText = value;
-    console.log(value);
   }
 }
