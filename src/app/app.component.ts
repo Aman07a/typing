@@ -10,8 +10,10 @@ export class AppComponent {
   title = 'typing';
 
   randomText = lorem.sentence();
+  enteredText = '';
 
   onInput(value: string) {
+    this.enteredText = value;
     console.log(value);
   }
 }
