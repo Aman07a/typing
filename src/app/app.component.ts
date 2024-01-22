@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { lorem } from 'faker';
 
-lorem.sentence();
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,4 +8,6 @@ lorem.sentence();
 })
 export class AppComponent {
   title = 'typing';
+
+  randomText = lorem.sentence();
 }
